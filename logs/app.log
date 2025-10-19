@@ -1,0 +1,372 @@
+2025-06-20 16:04:13 | INFO     | app.api.endpoints.processing:upload_file:84 - 开始处理文件: 1-TCS-M6-001(三门).pdf, 任务ID: 8cb8d646-179e-4103-8e9a-8beb7e161b67
+2025-06-20 16:04:13 | INFO     | app.services.file_processor:process_file:29 - 开始处理文件: uploads\8cb8d646-179e-4103-8e9a-8beb7e161b67_1-TCS-M6-001(三门).pdf, 类型: FileType.PDF
+2025-06-20 16:04:13 | INFO     | app.services.file_processor:_process_pdf:46 - 处理PDF文件: uploads\8cb8d646-179e-4103-8e9a-8beb7e161b67_1-TCS-M6-001(三门).pdf
+2025-06-20 16:04:13 | INFO     | app.services.layout_analyzer:analyze_layout:26 - 开始分析图纸布局
+2025-06-20 16:04:13 | INFO     | app.services.element_detector:detect_elements:26 - 开始检测图纸元素
+2025-06-20 16:04:13 | INFO     | app.services.topology_builder:build_topology:28 - 开始构建拓扑关系
+2025-06-20 16:04:13 | INFO     | app.services.topology_builder:_build_mock_topology:83 - 拓扑构建完成，节点数: 2, 边数: 1
+2025-06-20 16:04:13 | INFO     | app.services.processing_service:process_drawing:109 - 任务 8cb8d646-179e-4103-8e9a-8beb7e161b67 处理完成，耗时: 0.01秒
+2025-06-20 16:13:36 | ERROR    | app.api.endpoints.processing:download_processed_file:166 - 下载文件失败: 404: 文件不存在
+2025-06-20 19:32:38 | INFO     | app.api.endpoints.processing:upload_file:84 - 开始处理文件: 1-TCS-M6-001(三门).pdf, 任务ID: 42066b11-efd3-479b-ac35-1eb5120512e5
+2025-06-20 19:32:38 | INFO     | app.services.file_processor:process_file:29 - 开始处理文件: uploads\42066b11-efd3-479b-ac35-1eb5120512e5_1-TCS-M6-001(三门).pdf, 类型: FileType.PDF
+2025-06-20 19:32:38 | INFO     | app.services.file_processor:_process_pdf:46 - 处理PDF文件: uploads\42066b11-efd3-479b-ac35-1eb5120512e5_1-TCS-M6-001(三门).pdf
+2025-06-20 19:32:38 | INFO     | app.services.layout_analyzer:analyze_layout:26 - 开始分析图纸布局
+2025-06-20 19:32:38 | INFO     | app.services.element_detector:detect_elements:26 - 开始检测图纸元素
+2025-06-20 19:32:38 | INFO     | app.services.topology_builder:build_topology:28 - 开始构建拓扑关系
+2025-06-20 19:32:38 | INFO     | app.services.topology_builder:_build_mock_topology:83 - 拓扑构建完成，节点数: 2, 边数: 1
+2025-06-20 19:32:38 | INFO     | app.services.processing_service:process_drawing:121 - 任务 42066b11-efd3-479b-ac35-1eb5120512e5 处理完成，耗时: 0.00秒
+2025-06-20 19:39:37 | INFO     | app.services.export_service:export_to_json:44 - 导出JSON文件: exports\e141c6ca-a2b7-4b4a-bec6-63046f7fe186.json
+2025-06-20 19:40:25 | INFO     | app.services.export_service:export_to_csv:79 - 导出CSV文件: exports\dbceabd4-87e3-44a0-8f2b-7d266a839418.csv
+2025-06-20 19:40:48 | INFO     | app.services.export_service:export_to_dxf:111 - 导出DXF文件: exports\5ea0a7d1-829c-45cb-9d53-d19e1a037be6.dxf
+2025-06-20 21:08:15 | INFO     | app.services.validation_service:validate_model:34 - 模型校验完成，发现 1 个问题
+2025-06-20 21:18:13 | INFO     | app.services.validation_service:validate_model:34 - 模型校验完成，发现 1 个问题
+2025-07-04 10:58:17 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:58:17 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:58:17 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:58:27 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-04 10:58:29 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-04 10:58:29 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-04 10:58:29 | ERROR    | app.services.ocr_service:_init_trocr:152 - TrOCR初始化失败: (ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 8ae24487-395a-4119-a647-b8fb38d48c7c)')
+2025-07-04 10:58:29 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:58:29 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:58:29 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:20 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-04 10:59:20 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-04 10:59:20 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:20 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:20 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:20 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-04 10:59:20 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-04 10:59:20 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:20 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:20 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:20 | WARNING  | app.services.line_detection_service:_init_yolo_line_detector:54 - 专用管线检测模型不存在，将使用传统算法
+2025-07-04 10:59:20 | INFO     | app.services.line_detection_service:_init_opencv_detector:85 - OpenCV管线检测器初始化成功
+2025-07-04 10:59:21 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:21 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:21 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:26 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-04 10:59:28 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-04 10:59:28 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-04 10:59:29 | ERROR    | app.services.ocr_service:_init_trocr:152 - TrOCR初始化失败: (ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: c79da1ce-b8b0-478a-9724-34a7eb897907)')
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:29 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-04 10:59:29 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:29 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-04 10:59:29 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-04 10:59:29 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:29 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:29 | WARNING  | app.services.line_detection_service:_init_yolo_line_detector:54 - 专用管线检测模型不存在，将使用传统算法
+2025-07-04 10:59:29 | INFO     | app.services.line_detection_service:_init_opencv_detector:85 - OpenCV管线检测器初始化成功
+2025-07-04 10:59:30 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-04 10:59:30 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-04 10:59:33 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:33 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:33 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:34 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-04 10:59:34 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-04 10:59:34 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:34 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:34 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:45 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-04 10:59:49 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-04 10:59:49 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-04 10:59:51 | ERROR    | app.services.ocr_service:_init_trocr:152 - TrOCR初始化失败: (ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 144000ae-4028-4db0-b3f8-fbcbf222cb06)')
+2025-07-04 10:59:51 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-04 10:59:51 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-04 10:59:51 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-04 10:59:51 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-04 10:59:51 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-04 10:59:51 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-04 10:59:51 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 16:06:01 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 16:06:01 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 16:06:01 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 16:06:02 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 16:06:02 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 16:06:02 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 16:06:02 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 16:06:02 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 16:06:28 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 16:06:32 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 16:06:32 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 16:07:05 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 16:07:05 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 16:07:05 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 16:07:05 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 16:07:05 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 16:07:05 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 16:07:05 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 16:07:05 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 19:45:11 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 19:45:11 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 19:45:11 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 19:45:14 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 19:45:14 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 19:45:14 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 19:45:14 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 19:45:14 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 19:45:30 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 19:45:33 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 19:45:33 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 19:45:46 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 19:45:46 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 19:45:46 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 19:45:46 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 19:45:46 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 19:45:46 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 19:45:46 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 19:45:46 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:12:17 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:12:17 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:12:17 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:12:20 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:12:20 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:12:20 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:12:20 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:12:20 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:12:40 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:12:44 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:12:44 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:13:10 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:13:10 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:13:10 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:13:10 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:13:10 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:13:10 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:13:10 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:13:10 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:13:14 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:13:14 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:13:14 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:13:14 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:13:14 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:13:14 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:13:14 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:13:14 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:13:31 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:13:34 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:13:34 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:13:48 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:13:48 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:13:48 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:13:48 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:13:48 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:13:48 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:13:48 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:13:48 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:13:51 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:13:51 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:13:51 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:13:52 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:13:52 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:13:52 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:13:52 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:13:52 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:14:09 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:14:12 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:14:12 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:14:25 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:14:25 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:14:25 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:14:25 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:14:25 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:14:25 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:14:25 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:14:25 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:15:15 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:15:15 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:15:15 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:15:16 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:15:16 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:15:16 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:15:16 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:15:16 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:15:34 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:15:37 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:15:37 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:15:51 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:15:51 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:15:51 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:15:51 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:15:51 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:15:51 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:15:51 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:15:51 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:16:39 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:16:39 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:16:39 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:16:39 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:16:39 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:16:39 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:16:39 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:16:39 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:16:57 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:17:00 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:17:00 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:17:14 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:17:14 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:17:14 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:17:14 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:17:14 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:17:14 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:17:14 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:17:14 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:26:09 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:26:09 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:26:09 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:26:09 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:26:09 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:26:09 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:26:09 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:26:09 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:26:21 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:26:24 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:26:24 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:26:38 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:26:38 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:26:38 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:26:38 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:26:38 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:26:38 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:26:38 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:26:38 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:26:42 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:26:42 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:26:42 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:26:42 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:26:42 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:26:42 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:26:42 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:26:42 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:27:00 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:27:03 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:27:03 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:27:16 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:27:16 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:27:16 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:27:16 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:27:16 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:27:16 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:27:16 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:27:16 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:27:20 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:27:20 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:27:20 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:27:21 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:27:21 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:27:21 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:27:21 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:27:21 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:27:38 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:27:41 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:27:41 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:27:54 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:27:54 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:27:54 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:27:54 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:27:54 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:27:54 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:27:54 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:27:54 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:27:58 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:27:58 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:27:58 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:27:59 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:27:59 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:27:59 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:27:59 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:27:59 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:28:15 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:28:18 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:28:18 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:28:31 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:28:31 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:28:31 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:28:31 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:28:31 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:28:31 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:28:31 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:28:31 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-07-08 20:28:34 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:28:34 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:28:34 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:28:36 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-07-08 20:28:36 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-07-08 20:28:36 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:28:36 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:28:36 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:28:53 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-07-08 20:28:55 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-07-08 20:28:55 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-07-08 20:29:09 | INFO     | app.services.ocr_service:_init_trocr:147 - TrOCR模型初始化成功: microsoft/trocr-base-printed
+2025-07-08 20:29:09 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-07-08 20:29:09 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-07-08 20:29:09 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-07-08 20:29:09 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-07-08 20:29:09 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-07-08 20:29:09 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-07-08 20:29:09 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-10-17 20:36:28 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-10-17 20:36:28 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-10-17 20:36:28 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-10-17 20:36:28 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-10-17 20:36:28 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-10-17 20:36:28 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-10-17 20:36:28 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-10-17 20:36:28 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-10-17 20:36:43 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-10-17 20:36:46 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-10-17 20:36:46 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-10-17 20:36:51 | ERROR    | app.services.ocr_service:_init_trocr:152 - TrOCR初始化失败: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/microsoft/trocr-base-printed/revision/main (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001EF3051A570>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))"), '(Request ID: 477d1ced-3ccd-4050-a45d-a9a60e937ccb)')
+2025-10-17 20:36:51 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-10-17 20:36:51 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-10-17 20:36:51 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-10-17 20:36:51 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-10-17 20:36:51 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-10-17 20:36:51 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-10-17 20:36:51 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-10-17 20:36:51 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-10-17 20:36:51 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-10-17 20:36:51 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-10-17 20:36:51 | WARNING  | app.services.line_detection_service:_init_yolo_line_detector:54 - 专用管线检测模型不存在，将使用传统算法
+2025-10-17 20:36:51 | INFO     | app.services.line_detection_service:_init_opencv_detector:85 - OpenCV管线检测器初始化成功
+2025-10-17 20:36:51 | INFO     | app.services.parallel_recognition_engine:__init__:69 - 并行识别引擎初始化完成
+2025-10-17 20:36:51 | INFO     | app.services.fusion_engine:__init__:39 - 结果融合引擎初始化完成
+2025-10-17 20:36:51 | INFO     | app.services.parallel_recognition_engine:__init__:69 - 并行识别引擎初始化完成
+2025-10-17 20:36:51 | INFO     | app.services.fusion_engine:__init__:39 - 结果融合引擎初始化完成
+2025-10-17 20:37:24 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-10-17 20:37:24 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-10-17 20:37:24 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-10-17 20:37:24 | INFO     | app.services.layout_detection_service:_init_yolov8:49 - 使用YOLOv8预训练模型
+2025-10-17 20:37:24 | INFO     | app.services.layout_detection_service:_init_yolov8:56 - YOLOv8布局检测模型初始化成功
+2025-10-17 20:37:24 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-10-17 20:37:24 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-10-17 20:37:24 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-10-17 20:37:36 | INFO     | app.services.ocr_service:_init_paddleocr:71 - PaddleOCR初始化成功
+2025-10-17 20:37:39 | INFO     | app.services.ocr_service:_init_easyocr:90 - EasyOCR初始化成功
+2025-10-17 20:37:39 | WARNING  | app.services.ocr_service:_init_tesseract:116 - Tesseract未安装或配置错误
+2025-10-17 20:37:45 | ERROR    | app.services.ocr_service:_init_trocr:152 - TrOCR初始化失败: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/microsoft/trocr-base-printed/revision/main (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001CB099DDFD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))"), '(Request ID: 74e692d8-7d72-4f3f-bc84-890ecf9aa32e)')
+2025-10-17 20:37:45 | INFO     | app.services.layout_analyzer:__init__:19 - AI布局分析器初始化完成
+2025-10-17 20:37:45 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-10-17 20:37:45 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-10-17 20:37:45 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-10-17 20:37:45 | WARNING  | app.services.text_detection_service:_init_dbnet:41 - DBNet模型文件不存在: models\models\text_recognition\dbnet_resnet50.pth
+2025-10-17 20:37:45 | INFO     | app.services.text_detection_service:_init_dbnet:42 - 将使用OpenCV文本检测作为替代
+2025-10-17 20:37:45 | INFO     | app.services.element_detector:__init__:21 - 元素检测器初始化完成
+2025-10-17 20:37:45 | INFO     | app.services.model_manager:_load_config:41 - 模型配置加载成功: models\config\model_config.json
+2025-10-17 20:37:45 | INFO     | app.services.model_manager:_get_device:57 - 未检测到CUDA，使用CPU
+2025-10-17 20:37:45 | INFO     | app.services.model_manager:__init__:24 - 模型管理器初始化完成，使用设备: cpu
+2025-10-17 20:37:45 | WARNING  | app.services.line_detection_service:_init_yolo_line_detector:54 - 专用管线检测模型不存在，将使用传统算法
+2025-10-17 20:37:45 | INFO     | app.services.line_detection_service:_init_opencv_detector:85 - OpenCV管线检测器初始化成功
+2025-10-17 20:37:45 | INFO     | app.services.parallel_recognition_engine:__init__:69 - 并行识别引擎初始化完成
+2025-10-17 20:37:45 | INFO     | app.services.fusion_engine:__init__:39 - 结果融合引擎初始化完成
+2025-10-17 20:37:45 | INFO     | app.services.parallel_recognition_engine:__init__:69 - 并行识别引擎初始化完成
+2025-10-17 20:37:45 | INFO     | app.services.fusion_engine:__init__:39 - 结果融合引擎初始化完成
